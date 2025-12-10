@@ -4,18 +4,18 @@ on:
   push:
     branches: [master, main]
     paths:
-      - "*.tex"
-      - ".github/workflows/**"
+      - '*.tex'
+      - '.github/workflows/**'
   pull_request:
     branches: [master, main]
-  workflow_dispatch: # Allow manual trigger
+  workflow_dispatch:  # Allow manual trigger
 
 jobs:
   build_latex:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-
+    
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -60,9 +60,9 @@ jobs:
           name: Resume ${{ steps.date.outputs.date }}
           body: |
             📄 **Wasim Akhtar - Resume**
-
+            
             Updated resume generated from LaTeX source.
-
+            
             Download the PDF below.
           draft: false
           prerelease: false
