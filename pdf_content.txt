@@ -1,0 +1,150 @@
+Wasim Akhtar
+Noida, Uttar Pradesh, India
+
+     wasim.akh2@gmail.com
+
+     linkedin.com/in/wasim-akhtar-3b7436b                                                   M: +91 9718742936
+
+
+Summary
+Results-driven Technical Analyst with nine years of experience in software analysis, design, development,
+debugging, and maintenance of enterprise web applications. Proficient in a wide range of technologies,
+including Azure, AWS, Dot Net Core, CI/CD, MAU , C#, SQL Server, ASP.net MVC, GIT, Agile, Docker Blazor
+and more. Microsoft Professional and AWS Certified Cloud Practitioner. Self-motivated and collaborative
+team player focused on delivering high-quality solutions.
+
+
+Experience
+    Technical Lead
+    Coforge
+    Mar 2022 - Present (3 year 11 months)
+    - Lead full-stack project development using Blazor with Radzen, focusing on Azure, AWS,
+    Dot Net Core, CI/CD , C#, SQL Server, ASP.net MVC, React, Apache Kafka ,Microservices, GIT, and Agile
+    methodologies. Along with Blazor Web Assembly and Blazor Server Client Architecture.
+    - Provide development, support, and DevOps services for a successful implementation.
+    - Collaborate effectively with developers and end-users to deliver client-centered solutions.
+    - Proficiently utilize technologies such as Mobile Backend API, Linux, Jira, Docker, and RDLC.
+
+
+    Software Engineer III
+    Concentrix
+    Jan 2020 - Feb 2022 (2 years 2 months)
+    - Played a key role in backend project (Web API) development, support, and DevOps.
+    - Utilized Azure, AWS, Dot Net Core, CI/CD, C#, AWS CloudWatch, SQL Server, ASP.net MVC,
+    and Agile methodologies.
+    - Strengthened team collaboration and contributed to successful project outcomes.
+
+
+
+    Software Engineer II
+    Concentrix
+    Aug 2016 - Dec 2019 (3 years 5 months)
+    - Managed entire SDLC process from requirement gathering to deployment.
+    - Provided expertise in technologies like C#, WPF, Entity Framework, EHLLAPI, SQL Server,
+    ASP.net MVC, and GIT.
+    - Advised colleagues on optimal market solutions and handled Python projects.
+
+
+
+    Senior System Analyst
+    Artech L.L.C.
+    Jun 2015 - Aug 2016 (1 year 3 months)
+    - Led the SDLC process, covering requirement gathering, development, and deployment.
+    - Offered insights and guidance to colleagues on effective market solutions.
+
+    Wasim Akhtar - page 1
+   - Utilized VBA, Excel, Ms Access, and EHLLAPI for efficient system analysis.
+
+
+   Mis Executive
+   Jabong
+   Oct 2014 - Jun 2015 (9 months)
+   - Applied skills in Excel, VBA, and Access to optimize data management processes.
+
+
+   Sr Practitioner
+   IBM
+   Oct 2012 - Oct 2014 (2 years 1 month)
+   - Developed VBA Macros and solutions to enhance operational efficiency.
+
+
+Education
+   Karnataka State Open University
+   Master of Computer Applications - MCA, Computer Science
+   Jan 2014 - Feb 2016
+
+
+   Indira Gandhi National Open University
+   bca, computer
+   2007 - 2010
+   Bachlore of Computer Application
+
+
+Licenses & Certifications
+   Six Sigma Yellow Belt - Concentrix
+   YB/06/2016/924499
+
+
+   AWS Certified Cloud Practitioner - Amazon Web Services (AWS)
+   Issued Nov 2021 - Expires Nov 2024
+   BT986BBJEB11QFK5
+
+
+   15 Secrets Successful People Know about Time Management (getAbstract
+   Summary) - LinkedIn
+
+
+   Avoiding Burnout - LinkedIn
+
+   C# (Basic) Certificate - HackerRank
+   a48ea6435c3b
+
+
+   ASP.NET Core: Test-Driven Development - LinkedIn
+
+
+
+                                            Wasim Akhtar - page 2
+    Building Real-Time Web Apps with SignalR 2 - LinkedIn
+
+    Become an ASP.NET Developer - LinkedIn
+
+
+    Deploying Your AWS Application to the Cloud with Docker
+                                                                  - LinkedIn
+
+    Learning Amazon Web Services (AWS) for Developers - LinkedIn
+
+
+    Learning ASP.NET Core MVC - LinkedIn
+
+
+    ASP.NET Core: Razor Pages - LinkedIn
+
+
+    ASP.NET Core New Features - LinkedIn
+
+
+    Postman Essential Training - LinkedIn
+
+
+    ML.NET: Getting Started - LinkedIn
+
+
+Skills
+ Angular • WebAssembly • Azure Kubernetes Service (AKS) • Kubernetes • Maui • ADO.NET •
+  Object-Oriented Programming (OOP) • Web Services • REST APIs • Visual Basic .NET (VB.NET)
+
+
+Honors & Awards
+    Automation Wizard - Concentrix
+    May 2016
+
+
+    Hunsung Hero - Concentrix
+
+
+
+
+                                      Wasim Akhtar - page 3
+
