@@ -41,7 +41,7 @@ Create a polished, professional slide deck presentation showcasing the career an
 - 2–3 supporting bullets:
   - Technical Lead at Coforge building mission-critical airport software for SITA
   - AWS Certified Cloud Practitioner
-  - Expert in .NET Core, Blazor, Azure, Kubernetes, Docker, CI/CD
+  - Expert in .NET 8, C# 11, ASP.NET, Blazor, Telerik, Azure, Kubernetes, Docker, CI/CD, and service-oriented architecture (SOA)
 
 ### Slide 3 — Career Timeline
 
@@ -60,44 +60,50 @@ Headline: "Building Software That Keeps Airports Running"
 
 Four cards or panels:
 
-- **Airside Optimizer** — Ground operations optimization and resource management
-- **Deicing Module** — Aircraft deicing operations, fluid tracking, compliance reporting
-- **Electronic Flight Strip** — Real-time aircraft movement tracking, arrival to departure
-- **Media Manager** — Airport configuration platform with Blazor + gRPC
+- **Airside Optimizer** — Ground operations optimization using .NET 8, C# 11, Blazor + Telerik UI, multithreading, and SOA with cloud + on-premises deployment
+- **Deicing Module** — Aircraft deicing operations, fluid tracking, compliance reporting with xUnit/NUnit unit testing (85% coverage)
+- **Electronic Flight Strip** — Real-time aircraft movement tracking with multithreading, MSTest/xUnit unit tests, and SOA
+- **Media Manager** — Airport configuration platform with Blazor + Radzen, REST/SOAP/gRPC, on-premises + Azure deployment
 
 ### Slide 5 — Technical Skills (Visual Grid)
 
 Organized into icon-labeled categories:
 
-- **Languages:** C#, Python, JavaScript, VB.NET, VBA
-- **Frameworks:** .NET Core, Blazor, ASP.NET MVC, Entity Framework, Angular, MAUI, SignalR
-- **Cloud:** Azure (AKS, Entra ID, Key Vault, Service Bus, CDN), AWS (CloudWatch, EC2)
-- **DevOps:** Docker, Kubernetes, Helm, CI/CD, Azure DevOps, GitHub Actions
-- **Databases:** SQL Server, Redis, Dapper, EF Core
-- **Architecture:** Microservices, Event-Driven, MVVM, TDD, Agile/Scrum
+- **Languages:** C# 11, Python, JavaScript, VB.NET, VBA
+- **Frameworks:** .NET 8, .NET Core, ASP.NET MVC, Blazor, Telerik UI for Blazor, Entity Framework, Angular, MAUI, SignalR, REST APIs, SOAP, gRPC
+- **Cloud & On-Prem:** Azure (AKS, Entra ID, Key Vault, Service Bus, Blob Storage, CDN), AWS (CloudWatch, EC2), On-Premises Deployment
+- **DevOps:** Docker, Kubernetes, Helm, CI/CD, Azure DevOps, Git, GitHub Actions
+- **Databases:** SQL Server, Redis, Dapper, EF Core, ADO.NET, LINQ
+- **Architecture:** Microservices, Service-Oriented Architecture (SOA), Event-Driven, MVVM, TDD, Agile/Scrum
+- **Testing:** Unit Testing (xUnit, NUnit, MSTest), Test-Driven Development
+- **Desktop:** WPF, WinForms, Desktop Application Development, Prism Framework
+- **Core Skills:** Multithreading, Analytical Skills, OOP
 
 ### Slide 6 — Cloud & DevOps Architecture
 
 Diagram-style slide showing:
 
-- Microservices deployed on Azure Kubernetes Service
+- Service-oriented architecture (SOA) and microservices deployed on Azure Kubernetes Service and on-premises infrastructure
 - Docker containers orchestrated with Helm Charts
-- CI/CD pipelines with Azure DevOps
+- CI/CD pipelines with Azure DevOps and Git-based workflows
 - Azure Entra ID + Key Vault for security
-- Azure Service Bus + Event Grid for event-driven messaging
+- Azure Service Bus + Event Grid for event-driven messaging; SOAP + REST + gRPC for service communication
 - Blue-green deployments for zero-downtime releases
-- 99.9% uptime achieved
+- Unit testing with xUnit, NUnit, MSTest integrated into CI/CD
+- Multithreading for high-throughput concurrent processing
+- 99.9% uptime achieved across cloud and on-prem environments
 
 ### Slide 7 — Impact By Numbers
 
 Large, bold stat cards:
 
-- **50,000+** daily API requests at 99.9% uptime
+- **50,000+** daily API requests at 99.9% uptime (REST + SOAP)
+- **85%** unit test coverage with xUnit, NUnit, MSTest
 - **70%** reduction in manual work via Python automation
-- **45%** performance improvement from legacy migration
+- **45%** performance improvement from legacy migration to .NET 8
 - **60%** faster incident response with CloudWatch
 - **20+ hrs/week** saved through ETL automation
-- **500+** daily users on WPF desktop apps
+- **500+** daily users on WPF desktop applications (on-prem)
 
 ### Slide 8 — Legacy Modernization
 
@@ -105,10 +111,11 @@ Headline: "Bridging the Old and New"
 
 Before/After comparison layout:
 
-- Migrated 5 ASP.NET Web Forms apps to .NET Core microservices
-- Integrated Entity Framework Core + Dapper for data access
+- Migrated 5 ASP.NET Web Forms apps to .NET 8 / .NET Core microservices with SOA patterns
+- Integrated Entity Framework Core + Dapper for SQL Server data access
+- Added comprehensive unit testing with NUnit and MSTest
 - 45% performance gain, 25% hosting cost reduction
-- Mentored team of 5 developers on modern practices and Git workflows
+- Mentored team of 5 developers on modern practices, Git workflows, and TDD
 
 ### Slide 9 — Multi-Industry Experience
 
@@ -146,6 +153,7 @@ Two columns:
 
 - Clean closing slide with name, email, LinkedIn, GitHub
 - Tagline: "From mainframe macros to cloud-native microservices — 12+ years of building what matters."
+- Key strengths: .NET 8, C# 11, Blazor + Telerik, SOA, Unit Testing, Multithreading, Cloud + On-Prem
 
 ---
 
