@@ -1,0 +1,197 @@
+%----------------------------------------------------------------------------------------
+% ATS-Optimized Resume Template - 95%+ ATS Compatible
+% Version 2: No LinkedIn, Coforge as last organization
+% NO graphics, NO columns, NO tables - Pure text for maximum ATS parsing
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt,a4paper]{article}
+
+% ATS-Friendly Packages Only
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.6in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+
+% ATS-Optimized Settings
+\pagestyle{empty}
+\setlist[itemize]{leftmargin=1.2em, itemsep=2pt, parsep=0pt, topsep=2pt, label={--}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+% Simple section formatting - ATS loves clear headers
+\newcommand{\sectionheader}[1]{%
+    \vspace{8pt}
+    {\large\bfseries #1}
+    \vspace{2pt}
+    \hrule
+    \vspace{4pt}
+}
+
+% Job entry format - clean and scannable
+\newcommand{\jobentry}[3]{%
+    \vspace{4pt}
+    {\normalsize\bfseries #1} \hfill #2\\
+    \textit{#3}
+}
+
+%----------------------------------------------------------------------------------------
+% DOCUMENT BEGINS
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+% HEADER - Single line format for ATS
+%----------------------------------------------------------------------------------------
+
+\begin{center}
+    {\LARGE\bfseries Wasim Akhtar}\\[4pt]
+    Noida, Uttar Pradesh, India
+\end{center}
+
+\vspace{2pt}
+
+%----------------------------------------------------------------------------------------
+% PROFESSIONAL SUMMARY
+%----------------------------------------------------------------------------------------
+
+\sectionheader{Professional Summary}
+
+Results-driven Senior System Analyst and Technical Lead with 13+ years of experience in software development, cloud architecture, and DevOps. Expert in .NET 8, C\# 11, ASP.NET, Blazor, Telerik, Azure, AWS, Docker, Kubernetes, and service-oriented architecture (SOA). Strong analytical skills with proven track record leading cross-functional teams, delivering scalable enterprise solutions across cloud and on-premises environments. Passionate about unit testing, multithreading, CI/CD pipelines, and desktop application development.
+
+%----------------------------------------------------------------------------------------
+% TECHNICAL SKILLS - Single column list for ATS parsing
+%----------------------------------------------------------------------------------------
+
+\sectionheader{Technical Skills}
+
+\textbf{Programming Languages:} \textbf{C\# 11 (C-Sharp)}, \textbf{Python}, \textbf{VBA}, \textbf{Visual Basic .NET}, \textbf{JavaScript}\\[2pt]
+
+\textbf{Frameworks and Libraries:} \textbf{.NET 8}, \textbf{.NET Core}, \textbf{ASP.NET MVC}, \textbf{Entity Framework}, \textbf{Blazor}, \textbf{Telerik UI for Blazor}, \textbf{Angular}, \textbf{MAUI}, \textbf{SignalR}, \textbf{ML.NET}, \textbf{WebAssembly}, \textbf{REST APIs}, \textbf{SOAP}, \textbf{gRPC}\\[2pt]
+
+\textbf{Cloud Platforms:} \textbf{Microsoft Azure}, \textbf{Amazon Web Services (AWS)}, \textbf{Azure Kubernetes Service (AKS)}, \textbf{AWS CloudWatch}, \textbf{Azure Entra ID}, \textbf{Azure Key Vault}, \textbf{Azure Blob Storage}, \textbf{Azure CDN}, \textbf{Azure Service Bus}, \textbf{Azure Event Grid}\\[2pt]
+
+\textbf{DevOps and Tools:} \textbf{Docker}, \textbf{Kubernetes}, \textbf{Helm Charts}, \textbf{CI/CD Pipelines}, \textbf{Azure DevOps}, \textbf{Git}, \textbf{Jira}, \textbf{IIS}, \textbf{HeadLamp}, \textbf{FreeLens}, \textbf{GitHub Actions}\\[2pt]
+
+\textbf{Databases:} \textbf{SQL Server}, \textbf{MS Access}, \textbf{ADO.NET}, \textbf{Entity Framework Core}, \textbf{Dapper}, \textbf{Redis}, \textbf{LINQ}\\[2pt]
+
+\textbf{Architecture and Methodologies:} \textbf{Microservices Architecture}, \textbf{Service-Oriented Architecture (SOA)}, \textbf{Object-Oriented Programming (OOP)}, \textbf{Test-Driven Development (TDD)}, \textbf{Unit Testing (xUnit, NUnit, MSTest)}, \textbf{Multithreading}, \textbf{Agile}, \textbf{Scrum}, \textbf{SDLC}, \textbf{MVVM Pattern}\\[2pt]
+
+\textbf{Other Technologies:} \textbf{WPF}, \textbf{WinForms}, \textbf{Desktop Application Development}, \textbf{On-Premises Deployment}, \textbf{RDLC Reporting}, \textbf{EHLLAPI}, \textbf{Radzen}, \textbf{Telerik}, \textbf{Prism Framework}, \textbf{JWT Authentication}, \textbf{OAuth 2.0}
+
+%----------------------------------------------------------------------------------------
+% PROFESSIONAL EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\sectionheader{Professional Experience}
+
+\jobentry{Technical Lead}{Mar 2022 -- Present (3 years 11 months)}{Coforge, Noida, India (Client: SITA)}
+
+\textbf{Airside Optimizer System -- Technical Lead, Full-Stack .NET Developer}
+\begin{itemize}
+    \item Leading development of comprehensive \textbf{Airside Optimizer System} using \textbf{C\# 11}, \textbf{.NET 8}, and \textbf{ASP.NET} for airport ground operations optimization and resource management
+    \item Built \textbf{Deicing Module} with \textbf{multithreading} for concurrent fluid tracking, deicing operations, and compliance reporting
+    \item Architected \textbf{service-oriented architecture (SOA)} using \textbf{Blazor}, \textbf{Telerik UI for Blazor}, \textbf{Azure Service Bus}, and \textbf{SignalR} for real-time operational updates
+    \item Implemented comprehensive \textbf{unit testing} with \textbf{xUnit} and \textbf{NUnit} achieving 85 percent code coverage across all modules
+    \item Deployed on \textbf{Azure Kubernetes Service} and \textbf{on-premises} environments with \textbf{Docker}, \textbf{Helm Charts}, and automated \textbf{CI/CD pipelines}
+\end{itemize}
+
+\textbf{Media Manager -- Full-Stack .NET Developer, DevOps Engineer}
+\begin{itemize}
+    \item Built airport configuration platform using \textbf{Blazor}, \textbf{Radzen}, \textbf{.NET 8}, \textbf{REST APIs}, \textbf{SOAP} services, and \textbf{gRPC} for microservices communication
+    \item Deployed on \textbf{Azure Kubernetes Service} and \textbf{on-premises} infrastructure with \textbf{Docker} containers, \textbf{Helm Charts}, and \textbf{CI/CD pipelines} achieving 99.9 percent uptime
+    \item Integrated \textbf{Azure Entra ID} authentication with \textbf{App Registration} for enterprise security, \textbf{Azure Key Vault} for secrets, and \textbf{Azure Blob Storage} for asset management
+\end{itemize}
+
+\textbf{Electronic Flight Strip System -- .NET Developer, Cloud Developer}
+\begin{itemize}
+    \item Developed mission-critical flight operations system using \textbf{C\#}, \textbf{.NET 8}, and \textbf{multithreading} for concurrent aircraft movement tracking via \textbf{Azure Service Bus}, \textbf{Event Grid}, \textbf{SignalR}
+    \item Architected \textbf{service-oriented architecture} with \textbf{Azure Entra ID SSO} and \textbf{RBAC} for 500 plus airport personnel, containerized with \textbf{Docker} and \textbf{Kubernetes}
+    \item Wrote \textbf{unit tests} using \textbf{MSTest} and \textbf{xUnit}; implemented automated \textbf{CI/CD pipelines} with \textbf{Azure DevOps} and blue-green deployments for zero-downtime releases
+\end{itemize}
+
+\textbf{Airport Integration System -- Technical Lead, DevOps Engineer}
+\begin{itemize}
+    \item Led development of deicing operations system with \textbf{SOA}-based microservices: \textbf{.NET 8 API}, \textbf{ASP.NET Information Services}, \textbf{Blazor Management UI}
+    \item Architected \textbf{Kubernetes} infrastructure on \textbf{Azure} and \textbf{on-premises} with \textbf{Helm Charts}, \textbf{Azure Entra ID}, \textbf{Key Vault}, and automated \textbf{CI/CD pipelines}
+    \item Applied \textbf{analytical skills} to monitor infrastructure using \textbf{HeadLamp}, \textbf{FreeLens}, \textbf{Azure Monitor} achieving 99.9 percent uptime for critical winter operations
+\end{itemize}
+
+\jobentry{Software Engineer III}{Jan 2020 -- Feb 2022 (2 years 2 months)}{Concentrix, Gurgaon, India (Clients: 7-Eleven, VicRoads, Australian Government)}
+
+\textbf{Backend .NET Projects -- Backend Developer, Cloud Engineer}
+\begin{itemize}
+    \item Architected and maintained 10 plus \textbf{RESTful} and \textbf{SOAP Web APIs} using \textbf{C\#}, \textbf{.NET Core} serving 50,000 plus daily requests with 99.9 percent uptime on \textbf{AWS} and \textbf{Azure}
+    \item Implemented \textbf{multithreading} for high-throughput request processing; integrated \textbf{AWS CloudWatch} monitoring and \textbf{CloudTrail} logging reducing incident response time by 60 percent
+    \item Designed API security with \textbf{JWT authentication}, \textbf{OAuth 2.0}, and API rate limiting; wrote \textbf{unit tests} with \textbf{NUnit} and \textbf{MSTest} for all service layers
+    \item Delivered \textbf{service-oriented} enterprise solutions for retail (7-Eleven), road transport (VicRoads), and government sector clients
+\end{itemize}
+
+\textbf{Legacy Modernization Initiative -- Technical Lead, Migration Specialist}
+\begin{itemize}
+    \item Led migration of 5 legacy \textbf{ASP.NET Web Forms} applications to \textbf{.NET Core microservices} with \textbf{Entity Framework Core} and \textbf{Dapper}
+    \item Achieved 45 percent performance improvement and reduced hosting costs by 25 percent through cloud optimization
+    \item Mentored team of 5 junior developers establishing coding standards and \textbf{Git} branching strategies
+\end{itemize}
+
+\jobentry{Software Engineer II}{Aug 2016 -- Dec 2019 (3 years 5 months)}{Concentrix, Gurgaon, India (Client: Cigna -- US Healthcare)}
+
+\textbf{Smart Alec Legacy Migration -- .NET Developer, Migration Specialist}
+\begin{itemize}
+    \item Led migration of legacy \textbf{Smart Alec} application to modern \textbf{.NET} platform for Cigna US healthcare operations
+    \item Developed 8 mission-critical \textbf{WPF desktop applications} using \textbf{C\#}, \textbf{MVVM pattern}, \textbf{Prism framework}, and \textbf{multithreading} serving 500 plus daily users on \textbf{on-premises} infrastructure
+    \item Architected data access layer with \textbf{Entity Framework}, \textbf{LINQ}, and optimized \textbf{SQL Server} stored procedures improving query performance by 50 percent
+    \item Wrote \textbf{unit tests} using \textbf{MSTest} and applied \textbf{analytical skills} to diagnose and resolve complex production issues
+\end{itemize}
+
+\textbf{Data Processing Automation Framework -- Automation Engineer, Python Developer}
+\begin{itemize}
+    \item Created \textbf{Python} automation scripts with \textbf{Pandas}, \textbf{NumPy}, and \textbf{OpenPyXL} for ETL processes reducing manual work by 70 percent saving 20 plus hours weekly
+\end{itemize}
+
+\jobentry{Senior System Analyst}{Jun 2015 -- Aug 2016 (1 year 3 months)}{Artech L.L.C., Noida, India (Client: Cigna -- US Healthcare)}
+
+Continued development and enhancement of \textbf{Smart Alec} and \textbf{Auto Inventory Management System} for Cigna US healthcare operations. Led \textbf{SDLC} for major client projects achieving 95 percent client satisfaction. Created \textbf{Excel VBA} automation solutions and \textbf{EHLLAPI} integrations connecting mainframe systems with \textbf{Excel} frontends. Developed \textbf{MS Access} databases for business process optimization.
+
+\jobentry{MIS Executive}{Oct 2014 -- Jun 2015 (9 months)}{Jabong, Gurgaon, India}
+
+Designed \textbf{MS Access} database for inventory tracking with \textbf{Excel VBA} automation processing 10,000 plus daily transactions reducing manual effort by 80 percent and improving data accuracy to 99 percent.
+
+\jobentry{Senior Practitioner}{Oct 2012 -- Oct 2014 (2 years 1 month)}{IBM, Gurgaon, India (Client: Cigna -- US Healthcare)}
+
+\textbf{Auto Inventory Management System and Smart Alec -- Systems Developer}
+\begin{itemize}
+    \item Developed and maintained \textbf{Auto Inventory Management System} for Cigna US healthcare inventory tracking and management
+    \item Built \textbf{Smart Alec} application for streamlined US healthcare operations and workflow automation
+    \item Created \textbf{EHLLAPI}-based solutions integrating IBM mainframe systems with \textbf{Excel} frontends improving data retrieval speed by 60 percent
+    \item Developed 15 plus \textbf{Excel VBA} macros automating daily reports saving 25 plus hours weekly
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+% EDUCATION
+%----------------------------------------------------------------------------------------
+
+\sectionheader{Education}
+
+\textbf{Bachelor of Computer Application, Computer Science} -- Indira Gandhi National Open University \hfill 2007 -- 2010
+
+%----------------------------------------------------------------------------------------
+% CERTIFICATIONS
+%----------------------------------------------------------------------------------------
+
+\sectionheader{Certifications}
+
+AWS Certified Cloud Practitioner (BT986BBJEB11QFK5) -- Amazon Web Services\\
+Six Sigma Yellow Belt (YB/06/2016/924499) -- Concentrix | C-Sharp Certificate -- HackerRank
+
+\textbf{ASP.NET Core Test-Driven Development}, \textbf{Building Real-Time Web Apps with SignalR 2}, \textbf{Deploying AWS Applications with Docker}, \textbf{Learning Amazon Web Services for Developers}, \textbf{ASP.NET Core MVC}, \textbf{ASP.NET Core Razor Pages}, \textbf{ASP.NET Core New Features}, \textbf{Postman Essential Training}, \textbf{ML.NET Getting Started}
+
+%----------------------------------------------------------------------------------------
+% HONORS AND AWARDS
+%----------------------------------------------------------------------------------------
+
+\sectionheader{Honors and Awards}
+
+Automation Wizard -- Concentrix (May 2016) | Unsung Hero -- Concentrix (May 2016)
+
+\end{document}
